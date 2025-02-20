@@ -1,4 +1,9 @@
 package br.com.felipe.criacionais.abastractfactory;
+
+import br.com.felipe.criacionais.abastractfactory.ursinho.Ursinho;
+import br.com.felipe.criacionais.abastractfactory.coelho.folder.Coelho;
+import br.com.felipe.criacionais.abastractfactory.tartaruga.Tartaruga;
+
 /**
  *
  * @author felipe.8129
@@ -6,7 +11,25 @@ package br.com.felipe.criacionais.abastractfactory;
 public class Main {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        FabricaDeBrinquedos fabricaPelucia = new FabricaDePelucia();
+        Coelho coelhoPelucia = fabricaPelucia.criarCoelho();
+        Ursinho ursinhoPelucia = fabricaPelucia.criarUrsinho();
+        Tartaruga tartarugaPelucia = fabricaPelucia.criarTartaruga();
+        coelhoPelucia.exibir();
+        ursinhoPelucia.exibir();
+        tartarugaPelucia.exibir();
+        
+        FabricaDeBrinquedos fabricaPlastico = new FabricaDePlastico();
+        Coelho coelhoPlastico = fabricaPlastico.criarCoelho();
+        Ursinho ursinhoPlastico = fabricaPlastico.criarUrsinho();
+        Tartaruga tartarugaPlastico = fabricaPlastico.criarTartaruga();
+        coelhoPlastico.exibir();
+        ursinhoPlastico.exibir();
+        tartarugaPlastico.exibir();
+        
+        
+        
     }
     
 }

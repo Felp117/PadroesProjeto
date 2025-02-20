@@ -1,14 +1,28 @@
 package br.com.felipe.criacionais.abastractfactory;
-public class FabricaDePelucia  implements FabricaDeBrinquedos{
+
+import br.com.felipe.criacionais.abastractfactory.coelho.folder.Coelho;
+import br.com.felipe.criacionais.abastractfactory.coelho.folder.CoelhoDePelucia;
+import br.com.felipe.criacionais.abastractfactory.tartaruga.Tartaruga;
+import br.com.felipe.criacionais.abastractfactory.tartaruga.TartarugaDePelucia;
+import br.com.felipe.criacionais.abastractfactory.ursinho.Ursinho;
+import br.com.felipe.criacionais.abastractfactory.ursinho.UrsinhoDePelucia;
+
+public class FabricaDePelucia implements FabricaDeBrinquedos{
 
     @Override
-    public InterfaceUrsinho criarUrsinho() {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public Ursinho criarUrsinho() {
+        return new UrsinhoDePelucia();
     }
 
     @Override
-    public InterfaceCoelho criarCoelho() {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public Coelho criarCoelho() {
+        return new CoelhoDePelucia();
+    }
+
+    @Override
+    public Tartaruga criarTartaruga() {
+       return new TartarugaDePelucia();
     }
     
+
 }
