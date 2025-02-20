@@ -1,4 +1,4 @@
-package br.com.felipe.criacionais.abastractfactory.coelho.folder;
+package br.com.felipe.criacionais.abastractfactory.coelho;
 /**
  *
  * @author felipe.8129

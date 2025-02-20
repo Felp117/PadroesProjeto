@@ -1,7 +1,10 @@
 package br.com.felipe.criacionais.abastractfactory;
 
+import br.com.felipe.criacionais.abastractfactory.fabrica.FabricaDePlastico;
+import br.com.felipe.criacionais.abastractfactory.fabrica.FabricaDeBrinquedos;
+import br.com.felipe.criacionais.abastractfactory.fabrica.FabricaDePelucia;
 import br.com.felipe.criacionais.abastractfactory.ursinho.Ursinho;
-import br.com.felipe.criacionais.abastractfactory.coelho.folder.Coelho;
+import br.com.felipe.criacionais.abastractfactory.coelho.Coelho;
 import br.com.felipe.criacionais.abastractfactory.tartaruga.Tartaruga;
 
 /**
