@@ -1,9 +1,9 @@
-package br.com.felipe.antiPadroes.factoryMethod;
+package br.com.felipe.factoryMethod;
 
-import br.com.felipe.antiPadroes.factoryMethod.logistica.Logistica;
-import br.com.felipe.antiPadroes.factoryMethod.logistica.LogisticaFerroviaria;
-import br.com.felipe.antiPadroes.factoryMethod.logistica.LogisticaMaritima;
-import br.com.felipe.antiPadroes.factoryMethod.logistica.LogisticaTerrestre;
+import br.com.felipe.factoryMethod.logistica.Logistica;
+import br.com.felipe.factoryMethod.logistica.LogisticaFerroviaria;
+import br.com.felipe.factoryMethod.logistica.LogisticaMaritima;
+import br.com.felipe.factoryMethod.logistica.LogisticaTerrestre;
 /**
  *
  * @author felipe.8129

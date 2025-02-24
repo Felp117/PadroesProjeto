@@ -1,4 +1,4 @@
-package br.com.felipe.antiPadroes.factoryMethod.transporte;
+package br.com.felipe.factoryMethod.transporte;
 
 /**
  *

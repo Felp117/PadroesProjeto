@@ -1,6 +1,6 @@
-package br.com.felipe.antiPadroes.factoryMethod.logistica;
+package br.com.felipe.factoryMethod.logistica;
 
-import br.com.felipe.antiPadroes.factoryMethod.transporte.Transporte;
+import br.com.felipe.factoryMethod.transporte.Transporte;
 
 /**
  *

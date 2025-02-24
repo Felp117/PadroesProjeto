@@ -1,6 +1,6 @@
-package br.com.felipe.antiPadroes.factoryMethod.JeitoErrado;
+package br.com.felipe.antiPadroes.JeitoErrado;
 
-import br.com.felipe.antiPadroes.factoryMethod.JeitoErrado.Logistica;
+import br.com.felipe.antiPadroes.JeitoErrado.Logistica;
 
 /**
  *

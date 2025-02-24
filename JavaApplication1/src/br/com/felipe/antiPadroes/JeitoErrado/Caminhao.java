@@ -1,4 +1,4 @@
-package br.com.felipe.antiPadroes.factoryMethod.JeitoErrado;
+package br.com.felipe.antiPadroes.JeitoErrado;
 /**
  *
  * @author felipe.8129
