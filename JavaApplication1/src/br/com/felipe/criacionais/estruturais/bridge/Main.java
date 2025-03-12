@@ -24,6 +24,6 @@ public class Main {
         
         
        projetor.ligar();
-       projetor.aumentarVolume();
+       projetor.aumentarVolume(); 
     }
 }
